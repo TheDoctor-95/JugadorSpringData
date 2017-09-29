@@ -9,9 +9,9 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.time.LocalDate;
 import java.util.List;
-
 public interface JugadorRepository extends JpaRepository<Jugador, Long> {
 
+    //prueba
 
     List<Jugador> findByNombreContaining(String nombre);
 
