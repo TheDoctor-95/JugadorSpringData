@@ -11,7 +11,7 @@ import java.time.LocalDate;
 import java.util.List;
 public interface JugadorRepository extends JpaRepository<Jugador, Long> {
 
-    //prueba
+    //prueba dfxdf
 
     List<Jugador> findByNombreContaining(String nombre);
 
